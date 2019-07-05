@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+demo4.sxzywl.net	TRUE	/	FALSE	1999999999	PHPSESSID	vk1rqg8va6qgcovn9dvu36f442
+

@@ -1,25 +1,28 @@
 /*nav*/
-@import "base.min.css";
 
-.icon-bar{
-    background:#000;
+@import "base.min.css";
+.icon-bar {
+    background: #000;
 }
-.nav_ul{
+
+.nav_ul {
     margin-top: 30px;
     position: relative;
-    float: right;
+    /* float: right; */
 }
+
 .nav_ul li a {
     padding: 10px 22px;
     font-size: 18px;
     color: #000;
     text-align: center;
 }
-.active{
-    color:  #00c1c3 !important;
+
+.active {
+    color: #00c1c3 !important;
 }
 
-.list_ul_1{
+.list_ul_1 {
     width: 118px;
     background-color: #fff;
     position: absolute;
@@ -27,13 +30,16 @@
     left: 0;
     display: none;
 }
-.nav_ul #er:hover #wo{
-	display: block;
+
+.nav_ul #er:hover #wo {
+    display: block;
 }
-.nav_ul #si:hover #jie{
-	display: block;
+
+.nav_ul #si:hover #jie {
+    display: block;
 }
-.list_ul_1 .list_li_1{
+
+.list_ul_1 .list_li_1 {
     width: 100%;
     text-align: center;
     font-size: 16px;
@@ -42,20 +48,27 @@
     line-height: 20px;
     cursor: pointer;
 }
-.list_ul_1 .list_li_1:hover{
+
+.list_ul_1 .list_li_1:hover {
     color: #00c1c3;
 }
-#jie{
+
+#jie {
     left: 0;
     width: 152px;
 }
-.list_ul_1 .list_li_1 a{
+
+.list_ul_1 .list_li_1 a {
     display: block;
 }
-.list_ul_1 .list_li_1 a:hover{
-	color:#00c1c3;
+
+.list_ul_1 .list_li_1 a:hover {
+    color: #00c1c3;
 }
+
+
 /*footer*/
+
 .foot {
     width: 100%;
     background-color: #373838;
@@ -69,8 +82,8 @@
 }
 
 .foot .footTop .footTop_ul {
-    width: 835px;
-    float: left;
+    /* width: 835px; */
+    /* float: left; */
     display: flex;
     justify-content: space-between;
 }
@@ -104,9 +117,11 @@
     color: #c3c3c3;
     margin-bottom: 5px;
 }
-.foot .footTop_li .footTop_li2:hover{
-	color:#fff;
+
+.foot .footTop_li .footTop_li2:hover {
+    color: #fff;
 }
+
 .foot .footTop_code {
     width: 122px;
     margin: 25px 0 0 97px;
@@ -148,20 +163,22 @@
     margin: 0;
     padding-top: 8px;
 }
-@media (max-width: 414px){
-    .nav_ul{
-    	float: none;
+
+@media (max-width: 414px) {
+    .nav_ul {
+        float: none;
     }
-  #wo,#jie{
-    	display: none !important;
+    #wo,
+    #jie {
+        display: none !important;
     }
 }
+
+
 /*footer*/
 
-
-@media (max-width: 414px){
-	.foot .footTop{
-		display:none
-	}
+@media (max-width: 414px) {
+    .foot .footTop {
+        display: none
+    }
 }
-
